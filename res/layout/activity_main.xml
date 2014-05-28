@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F6E3CE"
+    android:measureWithLargestChild="false"
+    android:orientation="vertical"
+    tools:context=".CatList" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6E3CE" >
+
+        <TextView
+            android:id="@+id/Title1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="#F5D0A9"
+            android:text="Twitter TimeLine"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textIsSelectable="false" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
